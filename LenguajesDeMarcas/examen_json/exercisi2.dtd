@@ -1,0 +1,54 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lliga SYSTEM "exercisi2.dtd">
+<lliga>
+    <jornada num="1">
+        <partit num="1">
+            <dia data="2018-12-23" />
+            <equip juga="local">
+                <nom>U. D. Rotlet-Molinar</nom>
+                <resultat>2</resultat>
+                <gols>
+                    <jugador>Xisco J.</jugador>
+                    <jugador>Xisco J.</jugador>
+                </gols>
+            </equip>
+            <equip juga="visitant">
+                <nom>U. D. Collerense</nom>
+                <resultat>0</resultat>
+                <gols />
+            </equip>
+        </partit>
+        <partit num="2">
+            <dia data="2018-12-23" />
+            <equip juga="local">
+                <nom>C .F. Plages de Calvià</nom>
+                <resultat>1</resultat>
+                <gols>
+                    <jugador>Jaume S.</jugador>
+                </gols>
+            </equip>
+            <equip juga="visitant">
+                <nom>C. E. Esporles</nom>
+                <resultat>1</resultat>
+                <gols>
+                    <jugador>Tomeu A.</jugador>
+                </gols>
+            </equip>
+        </partit>
+    </jornada>
+</lliga> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT lliga (jornada)+>
+<!ELEMENT jornada (partit)+>
+<!ATTLIST jornada num CDATA #REQUIRED>
+<!ELEMENT partit (dia, equip+)>
+<!ATTLIST partit num CDATA #REQUIRED>
+<!ELEMENT dia EMPTY>
+<!ATTLIST dia data CDATA #REQUIRED>
+<!ELEMENT equip (nom, resultat, gols*)>
+<!ATTLIST equip juga (local|visitant) 'local'>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT resultat (#PCDATA)>
+<!ELEMENT gols (jugador*)>
+<!ELEMENT jugador (#PCDATA)>

@@ -1,0 +1,746 @@
+
+
+
+
+
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="iso-8859-1">
+
+    <!-- META DATA -->
+    <title>1, Número 1, </title>
+	<meta name="title" content="1, Número 1, ">
+    <meta name="description" content="El  (1) es el nÃºmero natural que sigue al 0 y precede al 2." />
+    <meta name="keywords" content="" />
+    <base href="http://localhost/numerosweb.com/">
+    <meta name="author" content="Toni Ramon & Miquel Sintes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- =========================
+      FAV AND TOUCH ICONS  
+    ============================== -->
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <!-- =========================
+       STYLESHEETS 
+    ============================== -->
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    
+        <!-- FLATICON -->
+    <link href='css/flaticon.css' rel='stylesheet'>
+
+    <!-- MEDIA ELEMENT AND PLAYER -->
+    <link rel="stylesheet" href="css/mediaelementplayer.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- COLOR SCEEMS -->
+    <link rel="stylesheet" href="css/colors/lime.css" title="lime">
+    <link rel="alternate stylesheet" href="css/colors/alizarin.css" title="alizarin">
+    <link rel="alternate stylesheet" href="css/colors/green-sea.css" title="green-sea">
+    <link rel="alternate stylesheet" href="css/colors/nephritis.css" title="nephritis">
+    <link rel="alternate stylesheet" href="css/colors/anethyst.css" title="anethyst">
+    <link rel="alternate stylesheet" href="css/colors/peter-river.css" title="peter-river">
+
+    <!-- RESPONSIVE FIXES -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<!-- =========================
+     HEADER SECTION 
+============================== -->
+<header class="header">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-24">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="http://localhost/numerosweb.com">
+                            <img src="images/logo.png" alt="Reader">
+                            <h1>Numerosweb</h1>
+                        </a>
+                    </div>
+                </div>
+                <!-- Navigation items -->
+                <div class="col-md-14">
+                    <div class="collapse navbar-collapse main-navigation" id="bs-example-navbar-collapse-1">
+                        
+
+                        <!-- SEARCH -->
+                        <form class="search-box navbar-form navbar-right" role="search" action="busqueda.php" method="GET">
+                            <div class="input-group">
+                                <input type="text" name="search" placeholder="Busca un número..." class="form-control" />
+								<input type="submit" name="sa" value="Buscar" class="form-control" />
+                            </div><!-- /input-group -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /END FLUID CONTAINER -->
+    </nav>
+</header>
+<!-- /END HEADER SECTION  -->
+
+<!-- BODY CONTAINER - FULL WIDTH -->
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- =========================
+             LEFT SIDEBAR - NAVIGATION 
+        ============================== -->
+        <aside class="left-sidebar hidden-xs">
+            <div class="col-md-4 col-sm-6 items">
+                <nav class="left-navigation">
+                    <ul>
+                        <li><h4><a href="default.htm">Del 0 al 9</a></h4>
+                            <ul>
+	                            <li><a href="http://localhost/numerosweb.com/0.html">Número 0</a></li>
+                                <li><a href="http://localhost/numerosweb.com/1.html">Número 1</a></li>
+                                <li><a href="http://localhost/numerosweb.com/2.html">Número 2</a></li>
+                                <li><a href="http://localhost/numerosweb.com/3.html">Número 3</a></li>
+                                <li><a href="http://localhost/numerosweb.com/4.html">Número 4</a></li>
+                                <li><a href="http://localhost/numerosweb.com/5.html">Número 5</a></li>
+                                <li><a href="http://localhost/numerosweb.com/6.html">Número 6</a></li>
+                                <li><a href="http://localhost/numerosweb.com/7.html">Número 7</a></li>
+                                <li><a href="http://localhost/numerosweb.com/8.html">Número 8</a></li>
+                                <li><a href="http://localhost/numerosweb.com/9.html">Número 9</a></li>
+                            </ul>
+                        </li>
+                        <li><h4><a href="default.htm">Decenas</a></h4>
+                            <ul>
+                                <li><a href="http://localhost/numerosweb.com/10.html">Número 10</a></li>
+                                <li><a href="http://localhost/numerosweb.com/20.html">Número 20</a></li>
+                                <li><a href="http://localhost/numerosweb.com/30.html">Número 30</a></li>
+                                <li><a href="http://localhost/numerosweb.com/40.html">Número 40</a></li>
+                                <li><a href="http://localhost/numerosweb.com/50.html">Número 50</a></li>
+                                <li><a href="http://localhost/numerosweb.com/60.html">Número 60</a></li>
+                                <li><a href="http://localhost/numerosweb.com/70.html">Número 70</a></li>
+                                <li><a href="http://localhost/numerosweb.com/80.html">Número 80</a></li>
+                                <li><a href="http://localhost/numerosweb.com/90.html">Número 90</a></li>
+                            </ul>
+                        </li>
+                        <li><h4><a href="default.htm">Centenas</a></h4>
+                            <ul>
+                                <li><a href="http://localhost/numerosweb.com/100.html">Número 100</a></li>
+                                <li><a href="http://localhost/numerosweb.com/200.html">Número 200</a></li>
+                                <li><a href="http://localhost/numerosweb.com/300.html">Número 300</a></li>
+                                <li><a href="http://localhost/numerosweb.com/400.html">Número 400</a></li>
+                                <li><a href="http://localhost/numerosweb.com/500.html">Número 500</a></li>
+                                <li><a href="http://localhost/numerosweb.com/600.html">Número 600</a></li>
+                                <li><a href="http://localhost/numerosweb.com/700.html">Número 700</a></li>
+                                <li><a href="http://localhost/numerosweb.com/800.html">Número 800</a></li>
+                                <li><a href="http://localhost/numerosweb.com/900.html">Número 900</a></li>
+                            </ul>
+                        </li>
+                        <li><h4><a href="default.htm">Milenios</a></h4>
+                            <ul>
+                                <li><a href="http://localhost/numerosweb.com/1000.html">Número 1000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/2000.html">Número 2000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/3000.html">Número 3000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/4000.html">Número 4000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/5000.html">Número 5000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/6000.html">Número 6000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/7000.html">Número 7000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/8000.html">Número 8000</a></li>
+                                <li><a href="http://localhost/numerosweb.com/9000.html">Número 9000</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav> <!-- end of .left-navigation -->
+
+                
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://localhost/numerosweb.com">Inicio</a></p>
+
+            </div>
+        </aside>
+        <!-- /END LEFT SIDEBAR - NAVIGATION -->
+        
+        <!-- =========================
+             BLOG SECTION 
+        ============================== -->
+        <div class="col-md-18 col-sm-18">
+            <div class="blog-style-one">
+               
+                <article class="blog-item">
+                    <header>
+                        <h2 class="title">
+                            El Número 1                        </h2>
+                    </header>
+                    <div style="float:right"><a href="http://www.numbersdata.com/1.html">Number 1</a></div>
+                    <br>
+                    <a href="./">Números</a> >
+                    <a  href="numeros-00.html">Números del 1 al 1000</a>
+                    
+                    <hr>
+                    
+                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 336x280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-0680240524407204"
+     data-ad-slot="4167860951"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    
+                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 336x280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-0680240524407204"
+     data-ad-slot="4167860951"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    
+                    <br><br>
+                    <img src="numero-1.png" alt="numero 1" />
+                    
+                    <br><br><br><br>
+                    
+                    <h3>Propiedades Matemáticas y Propiedades Trigonométricas de 1</h3>
+                    
+                    <br>
+                    <a href="1.html">1</a> Es el número natural que sigue al <a href="0.html">0</a> y precede al <a href="2.html">2</a>.
+<br />
+1         es un número impar. 
+<br />
+Los divisores de 1 son:
+<a href="1.html">1</a>&nbsp;
+, por lo que es un número primo.<br />
+<br><br>
+<h3>1 en distintos idiomas</h3>
+
+<br>
+<img style="vertical-align: middle;" src="flags/es.png" alt="es" width="32" height="32">
+<b><i>(sp)</i></b> El número 1 en español se escribe como uno<br />
+<img style="vertical-align: middle;" src="flags/us.png" alt="us" width="32" height="32">
+
+<b><i>(en) - </i></b>one
+
+<br />
+<img style="vertical-align: middle;" src="flags/fr.png"  alt="fr"width="32" height="32">
+<b><i>(fr) - </i></b>un
+
+<br />
+<img style="vertical-align: middle;" src="flags/de.png" alt="de" width="32" height="32">
+ <b><i>(de) - </i></b>eins <br />
+<img style="vertical-align: middle;" src="flags/br.png" alt="br" width="32" height="32">
+  <b><i>(pt) - </i></b>um
+<br />
+<img style="vertical-align: middle;" src="flags/it.png" alt="it" width="32" height="32">
+  <b><i>(it) - </i></b>uno
+
+
+<br><br><br>
+
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 336x280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-0680240524407204"
+     data-ad-slot="4167860951"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ <h3>Propiedades Matemáticas de 1</h3>
+ 
+ <br>
+                      
+                 <b> Raíz Cuadrada de <a href="1.html">1</a>:</b> 1  <br  />
+
+ 
+
+<b>Cuadrado de <a href="1.html">1</a> :</b><a href="1.html">1</a> <br />
+
+Cuadrado de <a href="1.html">1</a> :1<br />
+
+
+
+<b>Factores Primos de <a href="1.html">1</a> :</b>
+<img src="http://chart.apis.google.com/chart?cht=tx&chl=" />
+
+<br />
+<b>Divisores de 1: </b>
+
+<a href="1.html">1</a>&nbsp;
+
+
+<br>1 is a 3-gonal number<br/>1 is a 4-gonal number<br/>1 is a 5-gonal number<br/>1 is a 6-gonal number<br/>1 is a 7-gonal number<br/>1 is a 8-gonal number<br/>1 is a 9-gonal number<br/>1 is a 10-gonal number<br/>1 is a 11-gonal number<br/>1 is a 12-gonal number<br/>1 is a 13-gonal number<br/>1 is a 14-gonal number<br/>1 is a 15-gonal number<br/>1 is a 16-gonal number<br/>1 is a 17-gonal number<br/>1 is a 18-gonal number<br/>1 is a 19-gonal number<br/>1 is a 20-gonal number<br/>1 is a 21-gonal number<br/>1 is a 22-gonal number<br/>1 is a 23-gonal number<br/>1 is a 24-gonal number<br/>1 is a 25-gonal number<br/>1 is a 26-gonal number<br/>1 is a 27-gonal number<br/>1 is a 28-gonal number<br/>1 is a 29-gonal number<br/>1 is a 30-gonal number<br/>
+
+<br><br>
+<h3>El número 1 decimal en otras bases</h3>
+<br>
+<b>1 en  Binario: </b>1<br /><b>1 en  Octal :</b>1<br /><b>1 en  Hexadecimal: </b>1<br /> <a href="http://www.codigoscolores.com/000001.html"><img src="color-000001.png" alt="color #000001" /> <br />
+<b>log(e) de <a href="1.html">1</a> : </b>0<br /><b>log(10) <a href="1.html">1</a> : </b>0<br /><b>log(1 + <a href="1.html">1</a> ): </b>0.69314718055995<br />
+
+
+
+
+
+
+                      
+                      <br><br>
+
+<br>
+                    <h3>Propiedades Trigonométricas de 1</h3>
+<br>
+
+<b>Seno de 1 : </b>0.8414709848079<br /><b>Coseno de 1 : </b>0.54030230586814<br /><b>Tangente de 1 : </b>1.5574077246549<br />
+
+
+
+
+       1 NO es múltiplo de 3. 
+<br />
+       1 NO es múltiplo de 5. 
+<br />
+
+       1 NO es múltiplo de 7. 
+<br />
+
+       1 NO es múltiplo de 9. <br />
+              1 NO es múltiplo de 11. 
+<br />
+
+<br />
+
+
+ 1 es el numero de días que han pasado desde el <a href="http://www.quepasoeldiaquenaci.com/acontecimientos/dia/17-de-junio.html">17 de  Junio</a> de  2016
+
+                    
+                    
+                    <br>
+                            <hr>
+                    
+                    <header>
+                        <h4 class="title">
+                            Números generados aleatoriamente 
+                        </h4>
+                    </header>
+
+                                        <br><br>
+                                                                    
+                                                <a href="http://localhost/numerosweb.com/5840.html">5840</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/39907.html">39907</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/15355.html">15355</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/23397.html">23397</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/41179.html">41179</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/19289.html">19289</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/19249.html">19249</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/1021.html">1021</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/10503.html">10503</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/17031.html">17031</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/878.html">878</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/40755.html">40755</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/1311.html">1311</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/20632.html">20632</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/47741.html">47741</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/30098.html">30098</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/1104.html">1104</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/17592.html">17592</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/47338.html">47338</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/6551.html">6551</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/47381.html">47381</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/45412.html">45412</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/37169.html">37169</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/7613.html">7613</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/27642.html">27642</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/41591.html">41591</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/4735.html">4735</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/20784.html">20784</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/29387.html">29387</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/43630.html">43630</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/37536.html">37536</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/33565.html">33565</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/40117.html">40117</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/39028.html">39028</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/23070.html">23070</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/33455.html">33455</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/47332.html">47332</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/15285.html">15285</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/48839.html">48839</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/7955.html">7955</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/38530.html">38530</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/9902.html">9902</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/2343.html">2343</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/44564.html">44564</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/1214.html">1214</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/10378.html">10378</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/21081.html">21081</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/30782.html">30782</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/22881.html">22881</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/4213.html">4213</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/42553.html">42553</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/4110.html">4110</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/41033.html">41033</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/28908.html">28908</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/4259.html">4259</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/2047.html">2047</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/43169.html">43169</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/21962.html">21962</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/43700.html">43700</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/12093.html">12093</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/16790.html">16790</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/20876.html">20876</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/48375.html">48375</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/21749.html">21749</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/49395.html">49395</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/13149.html">13149</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/5785.html">5785</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/18514.html">18514</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/28484.html">28484</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/36281.html">36281</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/3429.html">3429</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/39889.html">39889</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/41558.html">41558</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/27773.html">27773</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/28808.html">28808</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/23372.html">23372</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/26116.html">26116</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/25124.html">25124</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/19420.html">19420</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/6466.html">6466</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/19658.html">19658</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/15835.html">15835</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/12768.html">12768</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/26668.html">26668</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/9685.html">9685</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/37404.html">37404</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/46349.html">46349</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/21480.html">21480</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/33696.html">33696</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/27334.html">27334</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/7665.html">7665</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/28402.html">28402</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/29192.html">29192</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/23122.html">23122</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/34215.html">34215</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/34932.html">34932</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/33672.html">33672</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/12270.html">12270</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/13500.html">13500</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/28573.html">28573</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/34636.html">34636</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/32277.html">32277</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/33019.html">33019</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/46822.html">46822</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/19585.html">19585</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/20644.html">20644</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/30272.html">30272</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/27181.html">27181</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/26018.html">26018</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/14870.html">14870</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/42760.html">42760</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/7149.html">7149</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/41436.html">41436</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/2456.html">2456</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/7982.html">7982</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/24227.html">24227</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/3338.html">3338</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/20900.html">20900</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/13439.html">13439</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                                                        
+                                                <a href="http://localhost/numerosweb.com/15914.html">15914</a> &nbsp;&nbsp;&nbsp;
+                                                
+                                                
+                   
+
+                    
+                </article>
+
+                
+            </div>
+        </div>
+       
+
+        
+            </div>
+</div> <!-- end of .container-fluid -->
+
+
+<!-- =========================
+     FOOTER SECTION 
+============================== -->
+<footer class="footer light">
+    
+
+    <hr class="fullwd">
+    <div class="container-fluid">
+        <p class="copyright">Copyright 2016, <a href="#">Numerosweb.com</a> <a href="http://www.numbersdata.com">Numbers Data</a></p>
+    </div>
+
+</footer>
+<!-- /END FOOTER SECTION -->
+
+<script src="js/jquery.1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mediaelement-and-player.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/tweetie.min.js"></script>
+<script src="js/jquery.jscroll.min.js"></script>
+<script src="js/custom.js"></script>
+
+
+
+
+</body>
+</html>

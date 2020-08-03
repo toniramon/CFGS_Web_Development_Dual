@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 4/12</title>
+</head>
+
+<body>
+
+    <!-- 4.- Conversor €-$ Realitzeu una pàgina que mostre un formulari per a la
+conversió d’Euros a Dolars. Els camps del formulari han de poder ser netejats.
+    --> 
+
+    <form action="" method="POST" enctype="multipart/form-data">
+            <input type="text" id="USD" size="10" value="0" onchange="usdfunc()" />
+            <label for="USD"> USD </label>
+        
+            </br>
+        
+            <input type="text" id="EUR" size="10" value="0" onchange="eurfunc()" />
+            <label for="EUR"> EUR </label>
+        
+            <br><br>
+        
+            <button>Limpiar Form</button>
+    </form>
+    
+    
+    
+    <script type="text/javascript">
+var usd, eur;
+function init()
+{
+    usd = document.getElementById("USD");
+    eur = document.getElementById("EUR");
+}
+
+function eurfunc()
+{
+    usd.value = parseFloat(eur.value) * 0.70641;
+}
+
+function usdfunc()
+{
+    eur.value = parseFloat(usd.value) * 1.41544;
+}
+
+init();
+    </script>
+</body>
+</html>

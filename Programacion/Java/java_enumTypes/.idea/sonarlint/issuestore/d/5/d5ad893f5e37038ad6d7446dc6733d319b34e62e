@@ -1,0 +1,13 @@
+
+Jsquid:S1444".Make this "public static planetas" field final(Û·§Ú8áÙ÷ü-
+‡"squid:ClassVariableVisibilityCheck"TMake planetas a static final constant or non-public and provide accessors if needed.(Û·§Ú8áÙ÷ü-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü‚óï8áÙ÷ü-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¯Àıÿÿÿÿ8áÙ÷ü-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‡¥8áÙ÷ü-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÇÂç8áÙ÷ü-
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûåö•8áÙ÷ü-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À‹†Éüÿÿÿÿ8áÙ÷ü-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤î Îùÿÿÿÿ8áÙ÷ü-
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ¦¿ùûÿÿÿÿ8áÙ÷ü-
+?squid:S2386"#Make member "planetas" "protected".(ÄçÆ¾8áÙ÷ü-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( †8áÙ÷ü-

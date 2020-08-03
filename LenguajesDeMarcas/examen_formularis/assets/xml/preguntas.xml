@@ -1,0 +1,127 @@
+<questions>
+    <question>
+        <type>text</type>
+        <title>
+            1. ¿Quién dispara a Poopy Butthole?
+        </title>
+        <answer>Beth</answer>
+    </question>
+    <question>
+        <type>text</type>
+        <title>
+            2. ¿Cuál es la primera palabra del primer episodio?
+        </title>
+        <answer>Rick</answer>
+    </question>
+    <question>
+        <type>select</type>
+        <title>
+            3. ¿Cuál es el objeto que el Demonio le da a Rick?
+        </title>
+        <option>Una bufanda</option>
+        <option>Un microscopio</option>
+        <option>Un aftershave</option>
+        <option>Una máquina de escribir</option>
+        <option>Un parabrisas</option>
+        <answer>1</answer>
+    </question>
+    <question>
+        <type>select</type>
+        <title>
+            4. ¿Cuál era el nombre de esclavo del perro de Morty?
+        </title>
+        <option>Snifler</option>
+        <option>Snuffles</option>
+        <option>Snowflake</option>
+        <option>Snowball</option>
+        <answer>1</answer>
+    </question>
+    <question>
+        <type>multiple</type>
+        <title>5. Señala las verdaderas. ¿Cuál era el slogan que presenta Jerry cuando lo ascienden, pierde su
+            trabajo y lo vuelven a contratar estando en una simulación alienígena?</title>
+        <option>
+            ¿Quieres leche?
+        </option>
+        <option>
+            ¿Un bocadillo de pan?
+        </option>
+        <option>
+            ¿Te apetecen manzanas?
+        </option>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>multiple</type>
+        <title>6. Señala las verdaderas. Según Tammy, ¿Qué es lo que comen las mujeres de la tierra?</title>
+        <option>
+            Alpiste
+        </option>
+        <option>
+            Pene de pájaro
+        </option>
+        <option>
+            Lombrices con cereales
+        </option>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>checkbox</type>
+        <title>7. ¿Qué significa la frase "Wubba lubba dub dub"?... (señala las verdaderas)</title>
+        <option>
+            ¡Que comience la fiesta!
+        </option>
+        <option>
+            Estoy sufriendo, por favor ayúdame
+        </option>
+        <option>
+            Creo que te equivocas
+        </option>
+        <option>
+            ¡Zasca!
+        </option>
+        <answer>1</answer>
+        <answer>3</answer>
+    </question>
+    <question>
+        <type>checkbox</type>
+        <title>
+            8. ¿Qué tiene que hacer Jerry para que desaparezcan los Mr. Meeseeks?... (señala las verdaderas)
+        </title>
+        <option>Abrir un tarro</option>
+        <option>Mejorar su golpe de golf</option>
+        <option>Realizar la acción por la que les invocamos</option>
+        <option>Admitir que se equivoca</option>
+        <option>Cumplir la misión de Mr. Meeseeks</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>2</answer>
+        <answer>4</answer>
+    </question>
+
+    <question>
+        <type>radio</type>
+        <title>
+            9. ¿Plutón es un planeta?
+        </title>
+        <option>Si</option>
+        <option>Si, siempre lo ha sido</option>
+        <option>No</option>
+        <option>No, en el año 1994 la NASA lo cambió</option>
+        <answer>2</answer>
+    </question>
+
+    <question>
+        <type>radio</type>
+        <title>
+            10. ¿Cuál es la atracción favorita de Rick en el Anatomy Park?
+        </title>
+        <option>Piratas del Páncreas</option>
+        <option>Las Cascadas Vejiga</option>
+        <option>Ninguna</option>
+        <option>El Hígado Embrujado</option>
+        <answer>0</answer>
+    </question>
+</questions>

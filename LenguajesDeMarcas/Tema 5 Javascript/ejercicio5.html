@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Million Dollar WebApp</title>
+</head>
+
+<body>
+
+  <button onclick="cambiar()">Try it</button>
+
+  <p id="demo"></p>
+  <script>
+    function cambiar() {
+      var txt;
+      if (confirm("Aceptas?")) {
+        txt = "Se ha cambiado el valor!";
+        document.getElementById("divtest").style.background="red"; 
+      } else {
+        txt = "";
+      }
+      document.getElementById("divtest").innerHTML = txt;
+    }
+  </script>
+
+  <div id="divtest">Valor por defecto.</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<llistat>
+    <compte>
+        <titular dni="28009149D">Xesca Alomar</titular>
+        <saldoactual moneda="dolars">24000</saldoactual>
+        <data_creacio>13-abril-20223</data_creacio>
+    </compte>
+    <fons>
+        <compteassociat>62-C</compteassociat>
+        <dades>
+            <quantitatdepositada>20000</quantitatdepositada>
+            <moneda>Euros</moneda>
+        </dades>
+    </fons>
+    <fons>
+        <compteassociat>23-WX</compteassociat>
+        <dades>
+            <quantitatdepositada>4800</quantitatdepositada>
+            <moneda>Dolars</moneda>
+        </dades>
+    </fons>
+    <compte>
+        <titular dni="54786577J">Xavier Riera</titular>
+        <saldoactual moneda="euros">1900</saldoactual>
+        <datacreacio>15-febrero-2011</datacreacio>
+    </compte>
+</llistat>
+
+
+a) Extreure la quantitat depositada en el compte 62-C (amb etiqueta
+inclosa)
+
+//fons[compteassociat="62-C"]//dades/quantitatdepositada
+Element='<quantitatdepositada>20000</quantitatdepositada>'
+
+
+b) Extreure un llistat sense etiquetes de totes les monedes utilitzades pels
+diferents fons
+
+//fons/dades/moneda/text()
+Text='Euros'
+Text='Dolars'
+
+
+c) Extreure el DNI dels comptes que utilitzen dolars com a moneda base
+
+//compte/saldoactual[@moneda="dolars"]/../titular/@dni
+Attribute='dni=28009149D'
+
+
+d) Extreure tota la informació dels comptes o fons que utilitzen euros per
+un valor inferior a 2500.
+
+//compte[saldoactual[@moneda="euros"] < 2500 ]
+//fons/dades[quantitatdepositada < 2500 and moneda = "Euros"]
+
+no ho se juntar..
+//llistat[//fons/dades[quantitatdepositada < 2500 and moneda = "Euros"] or [//compte[saldoactual[@moneda="euros"] < 2500 ]]

@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+
+Rewriterule ^([0-9]{1,7})$ empiezan.php?num=$1
+Rewriterule ^([0-9]{8})$ numeros.php?num=$1
+Rewriterule ^sitemap([0-9]*).xml$ sitemap.php?num=$1
+RewriteRule ^([^\.]+)$ articles/$1.php [NC,L]
+ErrorDocument 404 https://dnis.es
+
+

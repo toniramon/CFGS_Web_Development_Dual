@@ -1,0 +1,15 @@
+
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İéùùÿÿÿÿ
+[
+squid:S1067"9Replace this use of System.out or System.err by a logger.(‡àÍĞşÿÿÿÿ8Â½–ÍŸ-
+U
+squid:S106:"9Replace this use of System.out or System.err by a logger.(İÃ•a8ñÏ£ÍŸ-
+psquid:S00117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºî®°8–¶®ÌŸ-
+psquid:S00117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¶×¨8¥‰áÌŸ-
+}squid:S1488\"_Immediately return this expression instead of assigning it to the temporary variable "matcher".(ÎÖì8ò¿›ÌŸ-
+_squid:HiddenFieldCheckC"7Rename "dni" which hides the field declared at line 13.(´Á,8¸“®ÌŸ-
+U
+squid:S106-"9Replace this use of System.out or System.err by a logger.(¦¹õh8 ŒæËŸ-
+V
+squid:S1060"9Replace this use of System.out or System.err by a logger.(ê±çá8®µæËŸ-
+5squid:S1700"Rename field "dni"(ªÍËÅüÿÿÿÿ8èÄÆŸ-

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Million Dollar WebApp</title>
+</head>
+
+<body>
+
+  <script>
+
+    var acertijo = 5;
+
+    function resultado() {
+      
+      if (document.getElementById("juego").value == acertijo) {
+        alert("Lo has adivinado!!");
+      } else {
+        alert("Intentalo de nuevo.");
+      }
+    }
+  </script>
+
+
+  <input id="juego" name="juego" type="text">
+  <button onclick="resultado()">Comprobar resultado</button>
+
+</body>
+
+</html>

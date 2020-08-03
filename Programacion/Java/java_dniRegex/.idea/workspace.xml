@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b14f006-8195-471e-b2c3-8ddca80c2ad0" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/main/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/lasencinas/dniRegex/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3450">
+              <caret line="242" selection-start-line="242" selection-end-line="242" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/RegularExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/identifiers/Dni.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/identifiers/Nie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="945">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/AssignmentTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getRegexValue</find>
+      <find>Dni</find>
+      <find>room</find>
+      <find>addRe</find>
+      <find>valid</find>
+      <find>println</find>
+      <find>la letra</find>
+      <find>La letr</find>
+      <find>nieNumber</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>nie</replace>
+      <replace>Nie</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/RoomTemperature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/RegularExpression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/main/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/identifiers/Dni.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/lasencinas/dniRegex/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/identifiers/Nie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/AssignmentTable.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="173" />
+    <option name="y" value="23" />
+    <option name="width" value="1395" />
+    <option name="height" value="941" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="identifiers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dniRegex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dniRegex" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554675731630" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lasencinas.dniRegex.main.App" />
+      <module name="dniRegex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lasencinas.dniRegex.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dniRegex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lasencinas.dniRegex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lasencinas.dniRegex" />
+      <option name="MAIN_CLASS_NAME" value="org.lasencinas.dniRegex.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.calculateLetterNieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dniRegex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lasencinas.dniRegex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lasencinas.dniRegex" />
+      <option name="MAIN_CLASS_NAME" value="org.lasencinas.dniRegex.AppTest" />
+      <option name="METHOD_NAME" value="calculateLetterNieTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.calculateNieFirstLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dniRegex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lasencinas.dniRegex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lasencinas.dniRegex" />
+      <option name="MAIN_CLASS_NAME" value="org.lasencinas.dniRegex.AppTest" />
+      <option name="METHOD_NAME" value="calculateNieFirstLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.calculateNieLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dniRegex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lasencinas.dniRegex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lasencinas.dniRegex" />
+      <option name="MAIN_CLASS_NAME" value="org.lasencinas.dniRegex.AppTest" />
+      <option name="METHOD_NAME" value="calculateNieLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.calculateNieLetter" />
+        <item itemvalue="JUnit.AppTest.calculateNieFirstLetter" />
+        <item itemvalue="JUnit.AppTest.calculateLetterNieTest" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b14f006-8195-471e-b2c3-8ddca80c2ad0" name="Default Changelist" comment="" />
+      <created>1554650206791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554650206791</updated>
+      <workItem from="1554650208062" duration="21518000" />
+      <workItem from="1554801670839" duration="690000" />
+      <workItem from="1554821953863" duration="645000" />
+      <workItem from="1555345369366" duration="467000" />
+      <workItem from="1556552967422" duration="507000" />
+      <workItem from="1557761914191" duration="27000" />
+    </task>
+    <task id="LOCAL-00001" summary="Basic project structure">
+      <created>1554651524831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554651524831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added regex class with HashMap">
+      <created>1554654249947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554654249947</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dni class added with getter and setters">
+      <created>1554655783653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554655783653</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Checking dni invalid">
+      <created>1554658839668</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554658839668</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test cases for Dni">
+      <created>1554660882480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554660882480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added nie with test cases.">
+      <created>1554662701875</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554662701875</updated>
+    </task>
+    <task id="LOCAL-00007" summary="RegularExpression converted to Singleton">
+      <created>1554664458630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554664458630</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Test cases are ok after Regex Singleton">
+      <created>1554664631083</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554664631083</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Removed unused methods">
+      <created>1554665252279</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554665252279</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Finished Nie, refactored classes and added Test Cases">
+      <created>1554675590306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554675590306</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_calculateLetterNieTest - 2019.04.07 at 23h 46m 52s.xml">
+      <configuration name="AppTest.calculateLetterNieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieFirstLetter - 2019.04.08 at 00h 05m 25s.xml">
+      <configuration name="AppTest.calculateNieFirstLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieFirstLetter - 2019.04.08 at 00h 05m 39s.xml">
+      <configuration name="AppTest.calculateNieFirstLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieFirstLetter - 2019.04.08 at 00h 06m 34s.xml">
+      <configuration name="AppTest.calculateNieFirstLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieFirstLetter - 2019.04.08 at 00h 06m 54s.xml">
+      <configuration name="AppTest.calculateNieFirstLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieFirstLetter - 2019.04.08 at 00h 07m 02s.xml">
+      <configuration name="AppTest.calculateNieFirstLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieLetter - 2019.04.08 at 00h 11m 35s.xml">
+      <configuration name="AppTest.calculateNieLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieLetter - 2019.04.08 at 00h 13m 56s.xml">
+      <configuration name="AppTest.calculateNieLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_calculateNieLetter - 2019.04.08 at 00h 18m 58s.xml">
+      <configuration name="AppTest.calculateNieLetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.04.08 at 00h 19m 03s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23854000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="173" y="23" width="1395" height="941" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2682927" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="2" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32979977" />
+      <window_info anchor="bottom" id="Database Changes" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32979977" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.28150767" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.39929327" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic project structure" />
+    <MESSAGE value="Added regex class with HashMap" />
+    <MESSAGE value="Dni class added with getter and setters" />
+    <MESSAGE value="Checking dni invalid" />
+    <MESSAGE value="Test cases for Dni" />
+    <MESSAGE value="Added nie with test cases." />
+    <MESSAGE value="RegularExpression converted to Singleton" />
+    <MESSAGE value="Test cases are ok after Regex Singleton" />
+    <MESSAGE value="Removed unused methods" />
+    <MESSAGE value="Finished Nie, refactored classes and added Test Cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Nie, refactored classes and added Test Cases" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/RoomTemperature.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/main/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/lasencinas/dniRegex/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/identifiers/Dni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/identifiers/Nie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/AssignmentTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lasencinas/dniRegex/utilities/RegularExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

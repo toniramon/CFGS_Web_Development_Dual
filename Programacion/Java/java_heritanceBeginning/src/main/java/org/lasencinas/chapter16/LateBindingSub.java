@@ -1,0 +1,9 @@
+package org.lasencinas.chapter16;
+
+public class LateBindingSub extends LateBindingSuper {
+
+    public void print() {
+        System.out.println("Inside LateBindingSub.print()");
+    }
+
+}

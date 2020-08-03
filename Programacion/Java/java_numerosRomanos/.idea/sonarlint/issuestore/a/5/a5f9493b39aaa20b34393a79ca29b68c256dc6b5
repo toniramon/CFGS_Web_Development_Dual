@@ -1,0 +1,15 @@
+
+Qsquid:S1481"3Remove this unused "grupoSumatorio" local variable.(æÓåý8Íµ¹þœ-
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Òö”k8Íµ¹þœ-
+V
+squid:S106,"9Replace this use of System.out or System.err by a logger.(öé´‘8Œå¶þœ-
+`squid:S1854"BRemove this useless assignment to local variable "grupoSumatorio".(æÓåý8Íµ¹þœ-
+Tsquid:S1481"1Remove this unused "numeroRomano" local variable.(’Ì¹Ìúÿÿÿÿ8Íµ¹þœ-
+bsquid:S1854"DRemove this useless assignment to local variable "grupoSustractivo".(›Óž8ˆö¤„œ-
+V
+squid:S106!"9Replace this use of System.out or System.err by a logger.(•†»™8ïäž„œ-
+Ssquid:S1481"5Remove this unused "grupoSustractivo" local variable.(›Óž8ˆö¤„œ-
+V
+squid:S106+"9Replace this use of System.out or System.err by a logger.(¯Æ‡à8ßÒÁ„œ-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀÊâƒ
+csquid:S1854"@Remove this useless assignment to local variable "numeroRomano".(’Ì¹Ìúÿÿÿÿ8Íµ¹þœ-

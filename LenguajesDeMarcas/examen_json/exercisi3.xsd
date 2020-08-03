@@ -1,0 +1,77 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<lliga>
+    <jornada num="1">
+        <partit num="1">
+            <dia data="2018-12-23" />
+            <equip juga="local">
+                <nom>U. D. Rotlet-Molinar</nom>
+                <resultat>2</resultat>
+                <gols>
+                    <jugador>Xisco J.</jugador>
+                    <jugador>Xisco J.</jugador>
+                </gols>
+            </equip>
+            <equip juga="visitant">
+                <nom>U. D. Collerense</nom>
+                <resultat>0</resultat>
+                <gols />
+            </equip>
+        </partit>
+        <partit num="2">
+            <dia data="2018-12-23" />
+            <equip juga="local">
+                <nom>C .F. Plages de Calvià</nom>
+                <resultat>1</resultat>
+                <gols>
+                    <jugador>Jaume S.</jugador>
+                </gols>
+            </equip>
+            <equip juga="visitant">
+                <nom>C. E. Esporles</nom>
+                <resultat>1</resultat>
+                <gols>
+                    <jugador>Tomeu A.</jugador>
+                </gols>
+            </equip>
+        </partit>
+    </jornada>
+</lliga> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="lliga">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jornada">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="partit" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="dia" />
+                                        <xs:attribute type="xs:date" name="data" />
+                                        <xs:element name="equip" />
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element type="xs:string" name="nom" />
+                                                <xs:element type="xs:byte" name="resultat" />
+                                                <xs:element name="gols" />
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element type="xs:string" name="jugador" />
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="num" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:byte" name="num"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

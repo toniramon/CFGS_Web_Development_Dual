@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity 3/12</title>
+    
+    <style>
+    .contenedor {
+        width: 350px;
+        border: 2px;
+        border-color: black;
+        display: block;
+    }
+
+    .contenedor div {
+        margin: 20px;
+        border-style: solid;
+        border-width: medium;
+    }
+
+    .cuadrado {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .rojo {
+        background-color: red;
+    }
+
+    .verde {
+        background-color: green;
+    }
+
+    .azul {
+        background-color: blue;
+    }
+
+    .amarillo {
+        background-color: yellow;
+    }
+
+    .naranja {
+        background-color: orange;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- 3.- OnMouseOver(): Realitza una pàgina que mostre 5 quadrats de diferents
+colors. Quan el ratolí passe per damunt d’algun d’ells el color del fons de la
+pàgina canviarà a eixe color.
+    --> 
+
+    <div class="contenedor">
+        <div onmousemove="colorRojo()" onmouseout="colorBlanco()" class="cuadrado rojo">Rojo</div>
+        <div onmousemove="colorVerde()" onmouseout="colorBlanco()" class="cuadrado verde">Verde</div>
+        <div onmousemove="colorAzul()" onmouseout="colorBlanco()" class="cuadrado azul">Azul</div>
+        <div onmousemove="colorAmarillo()" onmouseout="colorBlanco()" class="cuadrado amarillo">Amarillo</div>
+        <div onmousemove="colorNaranja()" onmouseout="colorBlanco()" class="cuadrado naranja">Naranja</div>
+    </div>
+    
+    <script type="text/javascript">
+    function colorBlanco() {
+        document.body.style.backgroundColor = "white";
+    }
+
+    function colorRojo() {
+        document.body.style.backgroundColor = "red";
+    } 
+
+    function colorVerde() {
+        document.body.style.backgroundColor = "green";
+    } 
+    
+    function colorAzul() {
+        document.body.style.backgroundColor = "blue";
+    } 
+
+    function colorAmarillo() {
+        document.body.style.backgroundColor = "yellow";
+    } 
+
+    function colorNaranja() {
+        document.body.style.backgroundColor = "orange";
+    } 
+
+    </script>
+</body>
+</html>

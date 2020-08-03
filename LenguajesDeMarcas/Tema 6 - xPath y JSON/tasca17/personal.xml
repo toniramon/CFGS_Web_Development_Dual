@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personal SYSTEM "personal.dtd">
+<personal>
+  <persona id="ad10" note="" contr="false" salary="1500">
+    <dades>
+      <nom>Gemma</nom>
+      <cognom>Simó</cognom>
+    </dades>
+    <email>diego@gmail.com</email>
+    <url href="http://holagemma.com" />
+    <relacio treballador="ad11 ad12 ad13" />
+  </persona>
+  <persona id="ad11" note="" contr="false" salary="1550">
+    <dades>
+      <nom>Tomas</nom>
+      <cognom>Jerez</cognom>
+    </dades>
+    <email>tomasjerez@gmail.com</email>
+    <url />
+    <relacio director="ad10" />
+  </persona>
+  <persona id="ad12" note="" contr="false" salary="1450">
+    <dades>
+      <nom>Maria</nom>
+      <cognom>Heredia</cognom>
+    </dades>
+    <email></email>
+    <url />
+    <relacio director="ad10" />
+  </persona>
+  <persona id="ad13" note="" contr="false" salary="1400">
+    <dades>
+      <nom>Juan</nom>
+      <cognom>Morell</cognom>
+    </dades>
+    <email></email>
+    <url />
+    <relacio director="ad10" />
+  </persona>
+</personal>

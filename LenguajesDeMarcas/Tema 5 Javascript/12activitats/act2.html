@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 2/12</title>
+</head>
+
+<body>
+    <h1>Mira el resultado en la consola =)</h1>
+    <!-- 2.- Càlcul de nombres prims: Realitza una pàgina per calcular els nombres
+prims entre 1 i 100.
+     -->
+    <script>
+        function esPrimo(num) {
+            for ( var i = 2; i < num; i++ ) {
+                if ( num % i === 0 ) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        
+        function display(n) {
+            var arr = [2];
+            for ( var i = 3; i < n; i+=2 ) {
+                if ( esPrimo(i) ) {
+                    arr.push(i);
+                }
+            }
+            console.log(arr); // Mostramos el código por consola.
+        }
+        
+        display(100);
+        </script>
+</body>
+</html>

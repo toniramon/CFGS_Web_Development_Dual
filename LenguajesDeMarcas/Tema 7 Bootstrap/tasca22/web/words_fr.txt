@@ -1,0 +1,38 @@
+﻿un
+deux
+trois
+quatre
+cinq
+six
+sept
+huit
+neuf
+dix
+onze
+douze
+treize
+quatorze
+quinze
+seize
+dix-setp
+dix-huit
+dix-neuf
+vingt
+trente
+quarante
+cinquante
+soixante
+soixante-dix
+quatre-vingt
+quatre-vingt
+cent
+deux cents
+trois cents
+quatre cents
+cinq cents
+six cents
+sept cents
+huit cents
+neuf cents
+mille
+million

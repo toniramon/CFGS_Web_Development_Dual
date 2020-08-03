@@ -1,0 +1,31 @@
+﻿<p>La denominación oficial es documento nacional de identidad (DNI), aunque también se le denomina carné de identidad. Se trata de una tarjeta plastificada o de policarbonato donde se detalla el nombre y apellidos del titular, fecha de nacimiento, dirección, progenitores, sexo, dirección de residencia, localidad y provincia de nacimiento, y contiene una fotografía (tamaño 32 por 26 milímetros, con fondo uniforme blanco y liso, tomada de frente con la cabeza totalmente descubierta y sin gafas de cristales oscuros o cualquier otra prenda que pueda impedir o dificultar la identificación de la persona) y un número de identificación formado por 8 cifras más una letra de control. La foto aparece en color en los DNI expedidos hasta 2006.6​ Desde 19767​ es obligatorio a partir de los 14 años, aunque puede solicitarse desde la inscripción del menor en el Registro Civil. Generalmente se denomina número de identificación fiscal (NIF) a esta combinación de números y letra, y DNI incorrectamente sólo a los números (pues el NIF y el Número de DNI son el mismo número, y ambos incluyen la letra).
+</p>
+<p>
+Cola de gente en Madrid (España) intentando obtener su cédula personal, precedente del actual documento nacional de identidad (Blanco y Negro, 1906)
+El DNI es suficiente para viajar e inscribirse como residente en los países miembros de la Unión Europea. También sirve para viajar a Islandia, Noruega y Suiza (firmantes del Acuerdo de Schengen) y otros países europeos como Andorra, Liechtenstein, Mónaco o San Marino.
+</p>
+<p>
+El DNI se expide en las oficinas del Cuerpo Nacional de Policía. Cada oficina de expedición recibe un lote de números que va asignando de forma correlativa a su petición. Cuando este lote se termina recibe un lote nuevo. Otra leyenda urbana, es la cifra que aparece al final de la segunda línea, en la parte posterior del documento, se le vinculaba con el número de personas que tenían mismo nombre y apellidos que su portador, algo totalmente falso, ya que dicha cifra es un dígito de control resultante de un algoritmo utilizado por el sistema informático que crea el documento. Hasta los 30 años, el DNI tiene validez de 5 años. De los 30 a los 70 años, tiene validez de 10 años, siendo permanente a partir de los 70 años.
+</p>
+<p>
+En cuanto a la unicidad de la numeración de estos documentos la administración encargada de su gestión vela por la asignación de números únicos. No obstante, desde la creación de este documento en España se han producido diferentes situaciones que han derivado en la asignación de un mismo número a múltiples ciudadanos. Así para el año 1992 había en España unos 200.000 ciudadanos con un número de DNI no único[cita requerida]. El hecho de que este número no sea único es bien conocido en las profesiones relacionadas con las bases de datos informatizadas, en donde no se utiliza este campo como identificador único pues existen colisiones (números repetidos).
+</p>
+<p>
+Historia
+En el año 1944, Francisco Franco decidió crear un documento que identificara a todos los españoles. En el general Franco, en plena posguerra, comienza la larguísima serie numérica. Él posee el primer número del DNI. Y actualmente, en nuestros días se compone de 8 dígitos, completado con una letra. Francisco Franco, el ideólogo del DNI, tenía el número 1; a su esposa, Carmen Polo, se le asignó el 2; y su hija, Carmen Franco, recibió el 3.
+</p>
+<p>
+En el año 1961 se asignó al futuro rey Juan Carlos y a su esposa Sofía, los números 10 y 11 respectivamente. La familia real se reservaría los números que van del 10 al 99. Con la curiosidad, por simple superstición, que el número 13 fue descartado de la progresión, ya que le debería haber tocado a la infanta Cristina.
+</p>
+<p>
+1980 es la fecha cuando a la infanta Elena se le asigna el número 12, mientras a la infanta Cristina, se le otorgaría el 14, dejando el sexto número primo sepultado por superstición. Unos años más tarde el número 15 se le asigna al príncipe Felipe y a sus hijas infanta Leonor, el 16, y el 17 para la infanta Sofía.
+</p>
+<p>
+Para obtener un DNI es necesario tener la nacionalidad española. Los extranjeros residentes legalmente en España poseen una tarjeta de características similares pero en tonos azules, denominada Tarjeta de Identidad de Extranjero, donde consta un Número de Identificación de Extranjeros o NIE.
+</p>
+<p>
+No es obligatorio llevar siempre el DNI, pero el ciudadano tiene la obligación de identificarse ante cualquier agente de la autoridad que así lo requiera, pudiendo hacerse esta identificación con cualquier otro documento que satisfaga al agente (pasaporte, libro de familia, etc.).8​ Si bien, si no se puede realizar esta identificación de forma satisfactoria, los agentes pueden requerir al ciudadano que les acompañen a dependencias donde sea posible practicar las diligencias necesarias para su identificación.8​ Negarse a identificarse ante un agente de la autoridad o negarse a hacer voluntariamente dichas diligencias podría ser constitutiva de infracción administrativa o, en su caso, infracción penal de los artículos 634 y 556 del Código Penal.8​
+</p>
+<p>
+A lo largo de 2006-2007 se implantó la evolución lógica del DNI tradicional español al DNI electrónico, que se diferencia del tradicional por un chip que permite garantizar la identidad de la persona que lleva a cabo las gestiones y transacciones electrónicas que se realicen con él. También permite al ciudadano firmar digitalmente documentos de forma reconocida. El desarrollo del proyecto de despliegue ha correspondido a Indra, Telefónica, Software AG y Safelayer en una fase inicial, tras el concurso convocado por la Dirección General de Patrimonio del Estado. El desarrollo del proyecto técnico del DNI electrónico ha supuesto una inversión de 23,1 millones de euros, cantidad cofinanciada por los ministerios de Industria (11,4 millones) e Interior (11,6 millones). A comienzos de 2006 abrió la primera oficina piloto de expedición del DNI electrónico en Burgos, a continuación lo hicieron dos ciudades pequeñas, Aranda de Duero y Miranda de Ebro. Una vez acabada la experiencia piloto con éxito, la implantación a nivel nacional se realizó de manera escalonada.
+</p>

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: ultraFresh;
+    src: url(./ultra_fresh_demo.ttf);
+}
+
+body {
+    font-size: 16px;
+}
+
+.container h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: ultraFresh, verdana;
+    font-size: 6em;
+}
+
+h2 {
+    font-family: ultraFresh, verdana;
+}
+
+.input-size {
+    max-width: 100px;
+}
+
+.form-inline > * {
+    margin:15px 5px;
+}
+
+.big-numbers {
+    font-size: 1.5em;
+}

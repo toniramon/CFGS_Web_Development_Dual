@@ -1,0 +1,99 @@
+
+
+Utilizar firefox web developer para probar los diseños: hacer clic en la herramienta e ir a vista de diseño adaptable
+
+-----------------------------------------------
+
+ejercicios level 1 journey into mobile:
+
+Todos los ejercicios emplean el código:
+
+<body>
+  <h1>
+    <a href='#'>Set Heading Emphasis Font Size</a>
+  </h1>
+</body>
+
+
+Set the body font-size using relative sizing so that 1em = 10px. Remember, the default font-size for a browser is 16px.
+
+
+body {
+  
+}
+
+
+html{
+	font-size: 16px;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+-----------------
+SET HEADING FONT SIZE
+
+Using ems, set the h1 to be the equivalent of 24px. Remember, the target divided by context rule, keeping in mind our context is the body font-size set in pixels.
+
+html{
+	font-size: 16px;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+
+h1 {
+   /* tu codigo aqui target(24) / context (10)= result em */
+  font-size: 2.4em;
+}
+
+---------------------
+
+SET HEADING EMPHASIS FONT SIZE
+
+Using ems, set the a element inside the h1 element to be 16px. Remember, the target divided by context rule, keeping in mind our context has changed. 
+Use the CSS Source tab below for additional help. Specify your answer to at least 6 decimals.
+
+
+html{
+	font-size: 16px;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h1 a {
+	
+   /* tu codigo aqui target(16) / context (24)= result em */
+   font-size: 0,666666667em;
+
+}
+
+---------------------------
+
+VIEW YOUR CHANGES
+
+Set the <h1> to a font-size, in ems, of 70px, with the context being 16px. Also, set the <h3> font-size to 40px, in ems with the same context. 
+Be sure to view the Rendered tab to see the site you'll be building in future levels. 
+Use the toolbar buttons and border handles to resize the site.
+
+hace falta el código HTML del sitio
+
+fijarse en la anchura del sitio según dispositivo: a la derecha arriba en rendered
+
+h1 {
+  font-size: 4.375em;
+}
+h3 {
+  font-size: 2.5em;
+}
+
+------------------------------

@@ -1,0 +1,4 @@
+
+Šsquid:S13194"mThe return type of this method should be an interface such as "Set" rather than the implementation "EnumSet".(û©¼68ÍÈ­ı-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( †
+‹squid:S13198"mThe return type of this method should be an interface such as "Set" rather than the implementation "EnumSet".(´àĞÉ8ÍÈ­ı-

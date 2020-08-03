@@ -1,0 +1,67 @@
+
+
+Sobre el código del sitio "The Lost World" que ya contiene un layout fluido y un diseño adaptativo,
+sigue de manera ordenada los pasos que aquí se detallan para convertirlo en responsivo.
+
+-----------------------------------------------
+
+Find the Breakpoint ?????
+
+Using the border handles on either side, keep resizing the site below to see where the logo breaks. 
+Once you find it, write a media query to target that breakpoint, adding 20px to the breakpoint you find. 
+Use the max-width property.
+
+El logo "se rompe" a los 845px => según el enunciado sumarle 20px => 865px
+
+-----------------------------------------------
+
+Media Specific Header VVVVV
+
+Using the media query that you just wrote, adjust the <h1> font-size, using ems, with a target font-size
+of 50px, with our context being 16px. Also, set the line-height to the em equivalent of 30px.
+
+-----------------------------------------------
+
+Reposition Nav VVVVV
+
+It looks like the <nav> is pushed a little far down, so let's reduce the margin-top to 20px. 
+We should also reduce the font-size on the <nav> <li>'s, in ems, to the equivalent of 14px 
+with our context being 16px.
+
+-----------------------------------------------
+
+Reposition Banner  VVVVVV
+
+We should start preparing the .banner-caption for the lower viewports by adjusting the position 
+and size of it. Let's set the bottom value to 0 so it sticks to the bottom, and extend the width 100%. 
+You can use the CSS Source to view original styles:
+
+----------------------------------------------------
+
+
+Find Next Breakpoint   VVVVVVV
+
+Using the border handles on either side, keep resizing the site below to see where the logo and nav stack. 
+Write the media query to the next breakpoint. Use the max-width property.
+
+Solución:
+@media screen and (max-width: 720px) {}
+
+
+--------------------------------------------------------
+
+Resize h1   VVVVVV
+
+Use the media query you just wrote to make the <h1> font-size 70px, in ems, with a context of 16px. 
+Also, set the line-height to the em equivalent of 40px.
+
+------------------------------------------------------------
+
+Fix Header
+
+Now, increase the <nav> <li>'s font-size to a target of 18px, with the context being 16px, 
+Also, our .banner is getting rather large height-wise at this lower viewport. 
+Let's set the height of the .banner to 250px.
+
+------------------------------------------------------------
+

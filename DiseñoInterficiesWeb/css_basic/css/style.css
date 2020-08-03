@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+body, footer, header {
+    font-family: "Verdana", Times, serif;
+    font-size: 13px;
+}
+
+header {
+    height: 120px;
+    background-color: #a4e9ff;
+}
+
+.dashed {
+    border-bottom-style: dashed;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: left;
+    background-image: url(../images/logo.png);
+    height: 100%;
+    float: left;
+    width: 500px;
+}
+
+.header-text {
+    float: left;
+}
+
+.header-text h1 {
+    font-size: 26px;
+}
+
+.header-span-text {
+    margin-left: 40px;
+}
+
+.menu {
+    height: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    height: 100%;
+    margin: 0px;
+    margin-left: -40px;
+}
+
+.menu li {
+    float: left;
+    width: 50px;
+    background-color: #4bd0fc;
+    padding: 17px;
+    border-right: 1px;
+    border-right-style: double;
+    border-right-color: white;
+}

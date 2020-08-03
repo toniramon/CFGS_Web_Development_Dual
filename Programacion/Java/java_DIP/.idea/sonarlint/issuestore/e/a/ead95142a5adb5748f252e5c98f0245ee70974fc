@@ -1,0 +1,5 @@
+
+Isquid:S1444	"+Make this "public static stocs" field final(ο©£π8άφ¤ό-
+†"squid:ClassVariableVisibilityCheck	"QMake stocs a static final constant or non-public and provide accessors if needed.(ο©£π8άφ¤ό-
+;squid:S2386	"Make this member "protected".(ο©£π8άφ¤ό-
+]squid:S1118":Add a private constructor to hide the implicit public one.(¤όλωÿÿÿÿ8άφ¤ό-

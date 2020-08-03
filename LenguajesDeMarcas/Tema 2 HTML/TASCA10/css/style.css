@@ -1,0 +1,222 @@
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+@font-face {
+	font-family: 'leckerli_oneregular';
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
+}
+
+body {
+	margin: 0px;
+}
+
+header {
+	padding: 20px 0 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial Black, sans-serif;
+}
+
+header a img {
+	display: block;
+	margin: 0 auto;
+}
+
+header ul {
+	padding: 50px 0 40px 0;
+	display: block;
+	margin: 0 auto;
+}
+
+header ul li {
+	display: inline;
+	padding-right: 20px;
+}
+
+.selected a {
+	color: seagreen !important;
+	text-decoration: none !important;
+}
+
+
+#featured img {
+	width: 100%;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+header a:hover {
+    color: blue;
+}
+
+#featured {
+	margin: 0 0 13px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+#featured a {
+	display: table;
+	padding: 25px;
+	background-color: seagreen;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+}
+
+section div {
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    text-align: left;
+    width: 490px;
+}
+
+section div h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	background-color: white;
+	padding: 15px;
+	font-
+}
+
+section div span {
+	padding: 15px;
+    background-color: black;
+    color: white;
+	font-size: 18px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+section ul {
+	display: flex;
+    margin: 30px auto;
+	width: 70%;
+	text-align: center;
+	overflow: auto;
+}
+
+section ul li a {
+	text-decoration: none;
+}
+
+section ul li{
+	display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+	overflow: auto;
+	
+} 
+
+section ul span {
+	display: list-item;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+section ul li img {
+	border: 1px solid;
+	border-color: black;
+}
+
+footer {
+	background-color: black;
+	padding: 60px 0 80px 0;
+	color: white;
+	display: block;
+}
+
+footer div {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
+footer p {
+	float: left;
+}
+
+footer ul {
+	float: right;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+#twitter {
+	background-image: url(../images/icons/icon-twitter.jpg);
+	display: block;
+	margin: 0 auto;
+	height: 44px;
+	text-indent: -99999px;
+	width: 44px;
+}
+
+#twitter:hover {
+	background-image: url(../images/icons/icon-twitter-hover.jpg);
+}
+
+#facebook {
+	background-image: url(../images/icons/icon-facebook.jpg);
+	display: block;
+	margin: 0 5px 0 5px auto;
+	height: 44px;
+	text-indent: -99999px;
+	width: 44px;
+}
+
+#facebook:hover {
+	background-image: url(../images/icons/icon-facebook-hover.jpg);
+}
+
+#googleplus {
+	background-image: url(../images/icons/icon-googleplus.jpg);
+	display: block;
+	margin: 0 auto;
+	height: 44px;
+	text-indent: -99999px;
+	width: 44px;
+}
+
+#googleplus:hover {
+	background-image: url(../images/icons/icon-googleplus-hover.jpg);
+}
+
+#pinterest {
+	background-image: url(../images/icons/icon-pinterest.jpg);
+	display: block;
+	margin: 0 auto;
+	height: 44px;
+	text-indent: -99999px;
+	width: 44px;
+}
+
+#pinterest:hover {
+	background-image: url(../images/icons/icon-pinterest-hover.jpg);
+}

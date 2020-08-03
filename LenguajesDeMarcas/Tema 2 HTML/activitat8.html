@@ -1,0 +1,85 @@
+<!-- TASCA 8: Recordeu la Tasca 5 de la recepta de l'ou fregit que vam fer amb Markdown? 
+Anem a repetir-ho amb HTML5. Heu de fer la pàgina amb format HTML5 complet
+ (<!DOCTYPE>, <head>, <body>... i dins del bodi posar un <header> i una secció <section>. Optatiu: posar fons a la pàgina i
+      canviar tipus de lletra. Heu d'adjuntar el document .html en la tasca per a que ho corregeixi.
+
+
+
+
+    PARA HACER UN HUEVO FRITO: 
+- PRIMERO SE SACA UN HUEVO DE LA NEVERA (MUCHO CUIDADO DE NO ROMPERLO)
+- DESPUÉS SE CALIENTA ACEITE EN LA SARTÉN (MEJOR SI ES DE OLIVA)
+- SE CASCA EL HUEVO DENTRO DEL ACEITE (CUIDADO QUE SALPICARÁ MUCHO) 
+- SE DEJA CUAJAR Y SE SACA CON LA ESPUMADERA (SIN ROMPERLO).
+¡QUÉ APROVECHE!
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activitat 8 - HTML</title>
+    <meta name="author" content="Antonio Ramon">
+    <meta charset="UTF-8">
+</head>
+
+<style>
+body {
+    background-color: beige;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.9em;
+    margin-bottom: -20px;
+}
+section {
+    margin:auto;
+    width:50%;
+    text-align: center;
+    padding-top: 80px;
+}
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+header {
+    background-color:#464646;
+    width: 100%;
+    margin-top: -20px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    padding-top: 20px;
+}
+footer {
+    background-color:#464646;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+</style>
+
+<body>
+    <header>
+                <h1>PARA HACER UN HUEVO FRITO:</h1>
+    </header>
+    <section>
+        <article>
+            <ol>
+                <li>PRIMERO SE SACA UN <a href="https://es.wikipedia.org/wiki/Huevo_(alimento)" target="_blank">HUEVO</a> DE LA NEVERA <br />(MUCHO CUIDADO DE NO ROMPERLO)</li>
+                <li>DESPUÉS SE CALIENTA ACEITE EN LA SARTÉN <br />(MEJOR SI ES DE OLIVA)</li>
+                <li>SE CASCA EL <a href="https://es.wikipedia.org/wiki/Huevo_(alimento)" target="_blank">HUEVO</a> <b>DENTRO</b> DEL ACEITE <br />(CUIDADO QUE SALPICARÁ MUCHO)</li>
+                <li>SE DEJA CUAJAR Y SE SACA CON LA ESPUMADERA <br /><b>(SIN ROMPERLO)</b>.</li>
+            </ol>
+
+            <p>¡QUÉ APROVECHE!</p>
+
+            <img src="https://ocio.levante-emv.com/img_contenido/noticias/2017/03/571751/huevo_frito.jpg" alt="huevo" height="300">
+        </article>
+    </section>
+    
+</body>
+<footer>
+    <p>&copy; Toni Ramon - DAW Dual</p>
+</footer>
+</html>

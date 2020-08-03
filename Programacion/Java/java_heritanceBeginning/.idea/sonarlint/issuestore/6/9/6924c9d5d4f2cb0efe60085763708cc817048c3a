@@ -1,0 +1,6 @@
+
+Nsquid:S1444	"+Make this "public static count" field final(ψο•ώÿÿÿÿ8λιÿγ–-
+‹"squid:ClassVariableVisibilityCheck	"QMake count a static final constant or non-public and provide accessors if needed.(ψο•ώÿÿÿÿ8λιÿγ–-
+‰"squid:ClassVariableVisibilityCheck"OMake str a static final constant or non-public and provide accessors if needed.(σΊƒϊÿÿÿÿ8λιÿγ–-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(›ωÒΫόÿÿÿÿ8λιÿγ–-

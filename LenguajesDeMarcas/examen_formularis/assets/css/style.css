@@ -1,0 +1,197 @@
+body {
+    margin: 0px;
+    max-width: 95%;
+    margin: auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #eaeaea;
+    background-image: url("../img/concrete-wall.png");
+}
+
+header {
+    /* padding-top: 10px;
+    display: block;
+    max-width: 95%; 
+    margin: auto; */
+
+    /* Añadimos sobreado inferior */
+    background-color: #c7c7c7;
+    padding-bottom: 80px;
+    margin: 0px -50px 0px -50px;
+    /* text-align: center; */
+    padding-top: 20px;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 20px 3px rgba(0,0,0,0.75)
+}
+
+.header-container {
+    max-width: 90%;
+    margin: auto;
+}
+
+header .div-izq {
+    float: left;
+    max-width: 50%;
+}
+
+section {
+    margin-top: 30px;
+}
+
+section h2 {
+    margin: 0px auto 20px auto;
+    text-align: center;
+}
+
+section #boxed {
+    max-width:80%;
+    margin: 0 auto;
+}
+
+#boxed button {
+    margin: 0 auto;
+    display: block;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0px;
+}
+
+header .img {
+    float: right;
+    max-width: 250px;
+}
+
+.active {
+    color: #0C3471;
+}
+
+.logo {
+    text-align: center;
+    margin: 0px;
+}
+
+.logo h1,h3 {
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    color: #0C3471;
+}
+
+ol, ul { 
+    list-style-type: none;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+fieldset {
+    background-color: white;
+}
+
+
+.div-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+button {
+    margin: 20px;
+    padding: 20px;
+    background-color: #0C3471;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #c7c7c7;
+    margin: 0px -50px 0px -50px;
+    text-align: center;
+    padding-top: 20px;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.75);
+    display: grid;
+}
+
+.footer-columna {
+    float: left;
+    width: 33.33%;
+}
+
+.footer-columna ul {
+    margin-left: -35px;
+}
+
+#clickme {
+    position: relative;
+    bottom: 140px;
+    left: 135px;
+    width: 200px;
+}
+
+#barra {
+    max-width: 80%;
+    margin: 30px auto 30px auto;
+}
+
+#barra .boton1 {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+#barra .boton2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+form h4 {
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 15px;
+}
+
+fieldset img {
+    margin: 0 auto 0 auto;
+    display: block;
+    max-width: 20%;
+    padding: 20px;
+    float: right;
+}
+
+.centrado {
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+}
+
+.cronometro {
+    float: left;
+}
+
+input {
+    border:1px solid black;
+}
+
+#comentariosNota {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+#comentariosNota h3 {
+    text-align: center;
+    margin: 40px;
+}

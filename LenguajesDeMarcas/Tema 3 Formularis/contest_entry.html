@@ -1,0 +1,96 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Contest Entry Form</title>
+   <style type="text/css">
+      ol, ul { 
+     list-style-type: none;
+      }
+   </style>
+</head>
+
+<body>
+
+<h1>&ldquo;Pimp My Shoes&rdquo; Contest Entry Form</h1>
+
+<p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have <em>got</em> to go and you may be one of ten lucky winners.</p>
+
+<form action="http://www.learningwebdesign.com/contest.php" method="post">
+  
+  <fieldset>
+      <legend>Contest Entry Information</legend>
+
+      <ul>
+      <li>Name: <input type="text" name="name"></li>
+      <li>Email Address: <input type="text" name="email"></li>
+      <li>State: <input type="text" name="phone"></li>
+      <li>My shoes are SO old...<br>
+        <textarea name="story" rows="4" cols="60" maxlength="300"
+        placeholder="No more than 300 characters long"></textarea></li>
+      </ul>
+
+  </fieldset>
+  
+  
+  <fieldset>
+
+  <legend>Design your custom Forcefields:</legend>
+
+  <p>Custom Shoe Design</p>
+
+  <fieldset>
+    <legend>Color <em>(choose one)</em>:</legend>
+    <ul>
+        <li><input type="radio" name="color" value="red"> Red</li>
+        <li><input type="radio" name="color" value="blue"> Blue</li>
+        <li><input type="radio" name="color" value="black"> Black</li>
+        <li><input type="radio" name="color" value="silver"> Silver</li>
+      </ul>
+  </fieldset>
+    
+  <fieldset>
+    <legend>Features <em>(Choose as many as you want)</em></legend>
+    <ul>
+        <li><input type="radio" name="features" value="sparkley laces"> Sparkley laces</li>
+        <li><input type="radio" name="features" value="metallic logo"> Metallic logo</li>
+        <li><input type="radio" name="features" value="light-up heels"> Light-up heels</li>
+        <li><input type="radio" name="features" value="mp3-enabled"> MP3-enabled</li>
+    </ul>
+</fieldset>
+    
+<fieldset>
+  <legend>Size</legend>
+  <p>Sizes reflect standard men's sizes:</p>
+
+  <select>
+    <option>2</option>
+    <option>2</option>
+    <option>2</option>
+    <option>2</option>
+    <option>2</option>
+    <option>2</option>
+  </select>
+  <select name="icecream" size="7" multiple>
+    <optgroup label="traditional">
+      <option>vainilla</option>
+      <option>chocolate</option>
+    </optgroup>
+    <optgroup label="fancy">
+      <option>Super praline</option>
+      <option>Nut surprise</option>
+    </optgroup>
+  </select>
+</fieldset>
+
+  
+
+</fieldset>
+  <p>
+    <input type="submit" value="Pimpmy shoes!">
+     <input type="reset"></p> 
+    
+</form>
+
+</body>
+</html>

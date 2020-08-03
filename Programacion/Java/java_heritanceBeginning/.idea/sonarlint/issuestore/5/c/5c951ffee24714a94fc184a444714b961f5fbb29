@@ -1,0 +1,37 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(éç¬ùÿÿÿÿ8çÄÍä–-
+[
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ü×ßıÿÿÿÿ8€–Òä–-
+Ssquid:S2209"5Change this instance-reference to a static reference.(º¡û8¸©Ô“—-
+Xsquid:S2209#"5Change this instance-reference to a static reference.(ï˜¾“ùÿÿÿÿ8¸©Ô“—-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬8×œ¶ä–-
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Ö‹™ñüÿÿÿÿ8µóÒä–-
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8µóÒä–-
+Wsquid:S1905 "4Remove this unnecessary cast to "EarlyBindingSuper".(ü×ßıÿÿÿÿ8¸©Ô“—-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(…íçÿ8Áä³ä–-
+Xsquid:S2209"5Change this instance-reference to a static reference.(ÌÌİ“úÿÿÿÿ8¸©Ô“—-
+[
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(Ö‹™ñüÿÿÿÿ8„ä–-
+Wsquid:S1905#"4Remove this unnecessary cast to "EarlyBindingSuper".(ï˜¾“ùÿÿÿÿ8¸©Ô“—-
+Ssquid:S22098"5Change this instance-reference to a static reference.(º¡û8¸©Ô“—-
+Ssquid:S2209"5Change this instance-reference to a static reference.(ÈƒŒ8¸©Ô“—-
+Wsquid:S1905&"4Remove this unnecessary cast to "EarlyBindingSuper".(ïóÒ–øÿÿÿÿ8¸©Ô“—-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÌÌİ“úÿÿÿÿ8éåËä–-
+Xsquid:S2209&"5Change this instance-reference to a static reference.(ïóÒ–øÿÿÿÿ8¸©Ô“—-
+Ssquid:S2209"5Change this instance-reference to a static reference.(…íçÿ8¸©Ô“—-
+Ssquid:S22095"5Change this instance-reference to a static reference.(…íçÿ8¸©Ô“—-
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8µóÒä–-
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ï˜¾“ùÿÿÿÿ8€–Òä–-
+V
+squid:S1065"9Replace this use of System.out or System.err by a logger.(…íçÿ8µóÒä–-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(”œ­Éùÿÿÿÿ8¬õ·ä–-
